@@ -1,3 +1,4 @@
+from __future__ import annotations
 import discord
 from discord.ext import commands
 from discord import app_commands
@@ -10,7 +11,6 @@ from PIL import Image
 from io import BytesIO
 import pathlib
 import re
-from __future__ import annotations
 
 
 # --- Load environment variables ---
